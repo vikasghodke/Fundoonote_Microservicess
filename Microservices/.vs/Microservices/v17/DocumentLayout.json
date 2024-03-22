@@ -1,0 +1,366 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\C#\\Microservices\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{671E6216-468A-4F7D-8996-9155C2959A1D}|User_Microservices\\User_Microservices.csproj|c:\\c#\\microservices\\user_microservices\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{671E6216-468A-4F7D-8996-9155C2959A1D}|User_Microservices\\User_Microservices.csproj|solutionrelative:user_microservices\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{671E6216-468A-4F7D-8996-9155C2959A1D}|User_Microservices\\User_Microservices.csproj|c:\\c#\\microservices\\user_microservices\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{671E6216-468A-4F7D-8996-9155C2959A1D}|User_Microservices\\User_Microservices.csproj|solutionrelative:user_microservices\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{671E6216-468A-4F7D-8996-9155C2959A1D}|User_Microservices\\User_Microservices.csproj|c:\\c#\\microservices\\user_microservices\\iservice\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{671E6216-468A-4F7D-8996-9155C2959A1D}|User_Microservices\\User_Microservices.csproj|solutionrelative:user_microservices\\iservice\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{671E6216-468A-4F7D-8996-9155C2959A1D}|User_Microservices\\User_Microservices.csproj|c:\\c#\\microservices\\user_microservices\\usermodel\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{671E6216-468A-4F7D-8996-9155C2959A1D}|User_Microservices\\User_Microservices.csproj|solutionrelative:user_microservices\\usermodel\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{671E6216-468A-4F7D-8996-9155C2959A1D}|User_Microservices\\User_Microservices.csproj|c:\\c#\\microservices\\user_microservices\\usermodel\\userdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{671E6216-468A-4F7D-8996-9155C2959A1D}|User_Microservices\\User_Microservices.csproj|solutionrelative:user_microservices\\usermodel\\userdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{671E6216-468A-4F7D-8996-9155C2959A1D}|User_Microservices\\User_Microservices.csproj|c:\\c#\\microservices\\user_microservices\\usermodel\\userm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{671E6216-468A-4F7D-8996-9155C2959A1D}|User_Microservices\\User_Microservices.csproj|solutionrelative:user_microservices\\usermodel\\userm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{671E6216-468A-4F7D-8996-9155C2959A1D}|User_Microservices\\User_Microservices.csproj|c:\\c#\\microservices\\user_microservices\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{671E6216-468A-4F7D-8996-9155C2959A1D}|User_Microservices\\User_Microservices.csproj|solutionrelative:user_microservices\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{671E6216-468A-4F7D-8996-9155C2959A1D}|User_Microservices\\User_Microservices.csproj|c:\\c#\\microservices\\user_microservices\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{671E6216-468A-4F7D-8996-9155C2959A1D}|User_Microservices\\User_Microservices.csproj|solutionrelative:user_microservices\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{671E6216-468A-4F7D-8996-9155C2959A1D}|User_Microservices\\User_Microservices.csproj|c:\\c#\\microservices\\user_microservices\\userentity\\userentity1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{671E6216-468A-4F7D-8996-9155C2959A1D}|User_Microservices\\User_Microservices.csproj|solutionrelative:user_microservices\\userentity\\userentity1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{671E6216-468A-4F7D-8996-9155C2959A1D}|User_Microservices\\User_Microservices.csproj|c:\\c#\\microservices\\user_microservices\\userdbcontext\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{671E6216-468A-4F7D-8996-9155C2959A1D}|User_Microservices\\User_Microservices.csproj|solutionrelative:user_microservices\\userdbcontext\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{671E6216-468A-4F7D-8996-9155C2959A1D}|User_Microservices\\User_Microservices.csproj|c:\\c#\\microservices\\user_microservices\\service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{671E6216-468A-4F7D-8996-9155C2959A1D}|User_Microservices\\User_Microservices.csproj|solutionrelative:user_microservices\\service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{671E6216-468A-4F7D-8996-9155C2959A1D}|User_Microservices\\User_Microservices.csproj|c:\\c#\\microservices\\user_microservices\\iservice\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{671E6216-468A-4F7D-8996-9155C2959A1D}|User_Microservices\\User_Microservices.csproj|solutionrelative:user_microservices\\iservice\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{671E6216-468A-4F7D-8996-9155C2959A1D}|User_Microservices\\User_Microservices.csproj|c:\\c#\\microservices\\user_microservices\\jwttoken\\jwt_token1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{671E6216-468A-4F7D-8996-9155C2959A1D}|User_Microservices\\User_Microservices.csproj|solutionrelative:user_microservices\\jwttoken\\jwt_token1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{671E6216-468A-4F7D-8996-9155C2959A1D}|User_Microservices\\User_Microservices.csproj|c:\\c#\\microservices\\user_microservices\\usermodel\\reset_passwordmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{671E6216-468A-4F7D-8996-9155C2959A1D}|User_Microservices\\User_Microservices.csproj|solutionrelative:user_microservices\\usermodel\\reset_passwordmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{671E6216-468A-4F7D-8996-9155C2959A1D}|User_Microservices\\User_Microservices.csproj|c:\\c#\\microservices\\user_microservices\\usermodel\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{671E6216-468A-4F7D-8996-9155C2959A1D}|User_Microservices\\User_Microservices.csproj|solutionrelative:user_microservices\\usermodel\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{671E6216-468A-4F7D-8996-9155C2959A1D}|User_Microservices\\User_Microservices.csproj|c:\\c#\\microservices\\user_microservices\\hashing\\hash_password.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{671E6216-468A-4F7D-8996-9155C2959A1D}|User_Microservices\\User_Microservices.csproj|solutionrelative:user_microservices\\hashing\\hash_password.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{671E6216-468A-4F7D-8996-9155C2959A1D}|User_Microservices\\User_Microservices.csproj|c:\\c#\\microservices\\user_microservices\\user_microservices.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{671E6216-468A-4F7D-8996-9155C2959A1D}|User_Microservices\\User_Microservices.csproj|solutionrelative:user_microservices\\user_microservices.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{671E6216-468A-4F7D-8996-9155C2959A1D}|User_Microservices\\User_Microservices.csproj|c:\\c#\\microservices\\user_microservices\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{671E6216-468A-4F7D-8996-9155C2959A1D}|User_Microservices\\User_Microservices.csproj|solutionrelative:user_microservices\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{671E6216-468A-4F7D-8996-9155C2959A1D}|User_Microservices\\User_Microservices.csproj|c:\\c#\\microservices\\user_microservices\\user_microservices.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{671E6216-468A-4F7D-8996-9155C2959A1D}|User_Microservices\\User_Microservices.csproj|solutionrelative:user_microservices\\user_microservices.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{671E6216-468A-4F7D-8996-9155C2959A1D}|User_Microservices\\User_Microservices.csproj|c:\\c#\\microservices\\user_microservices\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{671E6216-468A-4F7D-8996-9155C2959A1D}|User_Microservices\\User_Microservices.csproj|solutionrelative:user_microservices\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{671E6216-468A-4F7D-8996-9155C2959A1D}|User_Microservices\\User_Microservices.csproj|c:\\c#\\microservices\\user_microservices\\migrations\\20240320061229_usermigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{671E6216-468A-4F7D-8996-9155C2959A1D}|User_Microservices\\User_Microservices.csproj|solutionrelative:user_microservices\\migrations\\20240320061229_usermigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserDisplay.cs",
+              "DocumentMoniker": "C:\\C#\\Microservices\\User_Microservices\\UserModel\\UserDisplay.cs",
+              "RelativeDocumentMoniker": "User_Microservices\\UserModel\\UserDisplay.cs",
+              "ToolTip": "C:\\C#\\Microservices\\User_Microservices\\UserModel\\UserDisplay.cs",
+              "RelativeToolTip": "User_Microservices\\UserModel\\UserDisplay.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T12:41:26.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ResponseModel.cs",
+              "DocumentMoniker": "C:\\C#\\Microservices\\User_Microservices\\UserModel\\ResponseModel.cs",
+              "RelativeDocumentMoniker": "User_Microservices\\UserModel\\ResponseModel.cs",
+              "ToolTip": "C:\\C#\\Microservices\\User_Microservices\\UserModel\\ResponseModel.cs",
+              "RelativeToolTip": "User_Microservices\\UserModel\\ResponseModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T12:32:12.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\C#\\Microservices\\User_Microservices\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "User_Microservices\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\C#\\Microservices\\User_Microservices\\Controllers\\UserController.cs",
+              "RelativeToolTip": "User_Microservices\\Controllers\\UserController.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAcwCcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T06:40:23.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\C#\\Microservices\\User_Microservices\\Service\\EmailService.cs",
+              "RelativeDocumentMoniker": "User_Microservices\\Service\\EmailService.cs",
+              "ToolTip": "C:\\C#\\Microservices\\User_Microservices\\Service\\EmailService.cs",
+              "RelativeToolTip": "User_Microservices\\Service\\EmailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T11:17:21.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserM.cs",
+              "DocumentMoniker": "C:\\C#\\Microservices\\User_Microservices\\UserModel\\UserM.cs",
+              "RelativeDocumentMoniker": "User_Microservices\\UserModel\\UserM.cs",
+              "ToolTip": "C:\\C#\\Microservices\\User_Microservices\\UserModel\\UserM.cs",
+              "RelativeToolTip": "User_Microservices\\UserModel\\UserM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T13:15:31.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\C#\\Microservices\\User_Microservices\\Service\\UserService.cs",
+              "RelativeDocumentMoniker": "User_Microservices\\Service\\UserService.cs",
+              "ToolTip": "C:\\C#\\Microservices\\User_Microservices\\Service\\UserService.cs",
+              "RelativeToolTip": "User_Microservices\\Service\\UserService.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAmwCwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T06:30:14.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\C#\\Microservices\\User_Microservices\\Program.cs",
+              "RelativeDocumentMoniker": "User_Microservices\\Program.cs",
+              "ToolTip": "C:\\C#\\Microservices\\User_Microservices\\Program.cs",
+              "RelativeToolTip": "User_Microservices\\Program.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAAAB8AAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T13:20:46.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\C#\\Microservices\\User_Microservices\\IService\\IUserService.cs",
+              "RelativeDocumentMoniker": "User_Microservices\\IService\\IUserService.cs",
+              "ToolTip": "C:\\C#\\Microservices\\User_Microservices\\IService\\IUserService.cs",
+              "RelativeToolTip": "User_Microservices\\IService\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T06:47:25.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserContext.cs",
+              "DocumentMoniker": "C:\\C#\\Microservices\\User_Microservices\\UserDBContext\\UserContext.cs",
+              "RelativeDocumentMoniker": "User_Microservices\\UserDBContext\\UserContext.cs",
+              "ToolTip": "C:\\C#\\Microservices\\User_Microservices\\UserDBContext\\UserContext.cs",
+              "RelativeToolTip": "User_Microservices\\UserDBContext\\UserContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T13:06:38.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Jwt_Token1.cs",
+              "DocumentMoniker": "C:\\C#\\Microservices\\User_Microservices\\JwtToken\\Jwt_Token1.cs",
+              "RelativeDocumentMoniker": "User_Microservices\\JwtToken\\Jwt_Token1.cs",
+              "ToolTip": "C:\\C#\\Microservices\\User_Microservices\\JwtToken\\Jwt_Token1.cs",
+              "RelativeToolTip": "User_Microservices\\JwtToken\\Jwt_Token1.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAYwDQAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T07:14:20.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserEntity1.cs",
+              "DocumentMoniker": "C:\\C#\\Microservices\\User_Microservices\\UserEntity\\UserEntity1.cs",
+              "RelativeDocumentMoniker": "User_Microservices\\UserEntity\\UserEntity1.cs",
+              "ToolTip": "C:\\C#\\Microservices\\User_Microservices\\UserEntity\\UserEntity1.cs",
+              "RelativeToolTip": "User_Microservices\\UserEntity\\UserEntity1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T13:17:49.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\C#\\Microservices\\User_Microservices\\appsettings.json",
+              "RelativeDocumentMoniker": "User_Microservices\\appsettings.json",
+              "ToolTip": "C:\\C#\\Microservices\\User_Microservices\\appsettings.json",
+              "RelativeToolTip": "User_Microservices\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-19T13:45:02.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\C#\\Microservices\\User_Microservices\\IService\\IEmailService.cs",
+              "RelativeDocumentMoniker": "User_Microservices\\IService\\IEmailService.cs",
+              "ToolTip": "C:\\C#\\Microservices\\User_Microservices\\IService\\IEmailService.cs",
+              "RelativeToolTip": "User_Microservices\\IService\\IEmailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T11:48:43.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Reset_PasswordModel.cs",
+              "DocumentMoniker": "C:\\C#\\Microservices\\User_Microservices\\UserModel\\Reset_PasswordModel.cs",
+              "RelativeDocumentMoniker": "User_Microservices\\UserModel\\Reset_PasswordModel.cs",
+              "ToolTip": "C:\\C#\\Microservices\\User_Microservices\\UserModel\\Reset_PasswordModel.cs",
+              "RelativeToolTip": "User_Microservices\\UserModel\\Reset_PasswordModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T11:30:39.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserLogin.cs",
+              "DocumentMoniker": "C:\\C#\\Microservices\\User_Microservices\\UserModel\\UserLogin.cs",
+              "RelativeDocumentMoniker": "User_Microservices\\UserModel\\UserLogin.cs",
+              "ToolTip": "C:\\C#\\Microservices\\User_Microservices\\UserModel\\UserLogin.cs",
+              "RelativeToolTip": "User_Microservices\\UserModel\\UserLogin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T10:47:26.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Hash_password.cs",
+              "DocumentMoniker": "C:\\C#\\Microservices\\User_Microservices\\Hashing\\Hash_password.cs",
+              "RelativeDocumentMoniker": "User_Microservices\\Hashing\\Hash_password.cs",
+              "ToolTip": "C:\\C#\\Microservices\\User_Microservices\\Hashing\\Hash_password.cs",
+              "RelativeToolTip": "User_Microservices\\Hashing\\Hash_password.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwCsAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T10:33:40.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "User_Microservices.http",
+              "DocumentMoniker": "C:\\C#\\Microservices\\User_Microservices\\User_Microservices.http",
+              "RelativeDocumentMoniker": "User_Microservices\\User_Microservices.http",
+              "ToolTip": "C:\\C#\\Microservices\\User_Microservices\\User_Microservices.http",
+              "RelativeToolTip": "User_Microservices\\User_Microservices.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-03-20T10:20:07.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\C#\\Microservices\\User_Microservices\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "User_Microservices\\WeatherForecast.cs",
+              "ToolTip": "C:\\C#\\Microservices\\User_Microservices\\WeatherForecast.cs",
+              "RelativeToolTip": "User_Microservices\\WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T09:25:31.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20240320061229_UserMigration.cs",
+              "DocumentMoniker": "C:\\C#\\Microservices\\User_Microservices\\Migrations\\20240320061229_UserMigration.cs",
+              "RelativeDocumentMoniker": "User_Microservices\\Migrations\\20240320061229_UserMigration.cs",
+              "ToolTip": "C:\\C#\\Microservices\\User_Microservices\\Migrations\\20240320061229_UserMigration.cs",
+              "RelativeToolTip": "User_Microservices\\Migrations\\20240320061229_UserMigration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T06:12:29.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "User_Microservices.csproj",
+              "DocumentMoniker": "C:\\C#\\Microservices\\User_Microservices\\User_Microservices.csproj",
+              "RelativeDocumentMoniker": "User_Microservices\\User_Microservices.csproj",
+              "ToolTip": "C:\\C#\\Microservices\\User_Microservices\\User_Microservices.csproj",
+              "RelativeToolTip": "User_Microservices\\User_Microservices.csproj",
+              "ViewState": "AQIAABMAAACAqOwwdbklwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-20T06:46:44.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\C#\\Microservices\\User_Microservices\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "User_Microservices\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\C#\\Microservices\\User_Microservices\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "User_Microservices\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T13:02:34.023Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
