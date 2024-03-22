@@ -99,6 +99,35 @@ namespace Note_Microservices.Controllers
             return response;
 
         }
+        [HttpDelete]
+        public ResponseModel<NoteModel> DeleteNote(int noteId)
+        {
+            ResponseModel<NoteModel> response = new ResponseModel<NoteModel>();
+            try
+            {
+                var _userID = User.FindFirstValue(ClaimTypes.NameIdentifier);
+                int UserID = Convert.ToInt32(_userID);
+                var check = _noteService.DeleteNote(noteId, UserID);
+
+                if (check)
+                {
+                    response.Message = "Note edited successfully.";
+
+                }
+                else
+                {
+                    response.Success = false;
+                    response.Message = "Something Went Wrong";
+                }
+            }
+            catch (Exception ex)
+            {
+                response.Success = false;
+                response.Message = ex.Message;
+            }
+            return response;
+
+        }
 
 
     }
