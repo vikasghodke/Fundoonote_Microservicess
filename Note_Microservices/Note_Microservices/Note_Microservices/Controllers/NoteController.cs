@@ -70,8 +70,37 @@ namespace Note_Microservices.Controllers
             }
             return responseModel;
         }
-       
-      
+        [HttpPut]
+        public ResponseModel<NoteModel> EditNote(int noteId, int userId, NoteModel model)
+        {
+            ResponseModel<NoteModel> response = new ResponseModel<NoteModel>();
+            try
+            {
+
+                var _userID = User.FindFirstValue(ClaimTypes.NameIdentifier);
+                int UserId = Convert.ToInt32(_userID);
+                var check = _noteService.EditNote(noteId, userId, model);
+                if (check)
+                {
+                    response.Message = "Note edited successfully.";
+                    response.Data = model;
+                }
+                else
+                {
+                    response.Success = false;
+                    response.Message = "Note not found";
+                }
+            }
+            catch (Exception ex)
+            {
+                response.Success = false;
+                response.Message = ex.Message;
+            }
+            return response;
+
+        }
+
+
     }
 }
        
