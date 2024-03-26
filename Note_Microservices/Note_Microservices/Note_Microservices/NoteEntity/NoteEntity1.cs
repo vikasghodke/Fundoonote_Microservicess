@@ -9,12 +9,13 @@ namespace Note_Microservices.NoteEntity
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int NoteId { get; set; }
         [Required]
-        public string? NoteTitle { get; set; }
+        public string NoteTitle { get; set; }
         public string? NoteDescription { get; set; }
         public string? Color { get; set; }
         public bool Archived { get; set; }=false;
         public int CreatedBy { get; set; }
+
         [NotMapped]
-        public UserEntity1? User1 { get; set; }
+        public UserEntity1? User { get; set; }
     }
 }

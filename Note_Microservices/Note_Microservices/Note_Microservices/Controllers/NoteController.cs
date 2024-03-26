@@ -1,4 +1,6 @@
 ﻿using Azure;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Note_Microservices.IService;
@@ -18,20 +20,34 @@ namespace Note_Microservices.Controllers
         {
             this._noteService = noteService;
         }
+
         [HttpPost("Add")]
-        public ResponseModel<NoteModel> AddNote(NoteModel noteModel)
+        [Authorize]
+        public async Task<ResponseModel<NoteEntity1>> AddNote(NoteModel noteModel)
         {
-            ResponseModel<NoteModel> response = new ResponseModel<NoteModel>();
+            ResponseModel<NoteEntity1> response = new ResponseModel<NoteEntity1>();
             try
             {
-                var _userID = User.FindFirstValue(ClaimTypes.NameIdentifier);
+                
+                var _userID = User.FindFirstValue("UserID");
                 int createBY = Convert.ToInt32(_userID);
 
-                var result = _noteService.AddNote(noteModel, createBY);
+                var authenticateresult = await HttpContext.AuthenticateAsync();
+                var token = authenticateresult.Properties.GetTokenValue("access_token");
+
+
+
+
+                var result = _noteService.AddNote(noteModel, createBY, token);
                 if (result != null)
                 {
                     response.Message = "Note created successfully.";
-                    response.Data = noteModel;
+                    response.Data = await result;
+                }
+                else
+                {
+                    response.Success = false;
+                    response.Message = "Invalid";
                 }
 
             }
@@ -43,12 +59,13 @@ namespace Note_Microservices.Controllers
             return response;
         }
         [HttpGet("View")]
+        [Authorize]
         public ResponseModel<List<NoteEntity1>> GetNotes()
         {
             var responseModel = new ResponseModel<List<NoteEntity1>>();
             try
             {
-                var _userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+                var _userId = User.FindFirstValue("UserID");
                 int userId = Convert.ToInt32(_userId);
                 var notes = _noteService.GetNotes(userId);
 
@@ -71,13 +88,14 @@ namespace Note_Microservices.Controllers
             return responseModel;
         }
         [HttpPut]
+        [Authorize]
         public ResponseModel<NoteModel> EditNote(int noteId, int userId, NoteModel model)
         {
             ResponseModel<NoteModel> response = new ResponseModel<NoteModel>();
             try
             {
 
-                var _userID = User.FindFirstValue(ClaimTypes.NameIdentifier);
+                var _userID = User.FindFirstValue("UserID");
                 int UserId = Convert.ToInt32(_userID);
                 var check = _noteService.EditNote(noteId, userId, model);
                 if (check)
@@ -100,12 +118,13 @@ namespace Note_Microservices.Controllers
 
         }
         [HttpDelete]
+        [Authorize]
         public ResponseModel<NoteModel> DeleteNote(int noteId)
         {
             ResponseModel<NoteModel> response = new ResponseModel<NoteModel>();
             try
             {
-                var _userID = User.FindFirstValue(ClaimTypes.NameIdentifier);
+                var _userID = User.FindFirstValue("UserID");
                 int UserID = Convert.ToInt32(_userID);
                 var check = _noteService.DeleteNote(noteId, UserID);
 

@@ -77,7 +77,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Note_Microservices.Model.ResponseModel\u00601[[Note_Microservices.Model.NoteModel, Note_Microservices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Note_Microservices.Model.ResponseModel\u00601[[Note_Microservices.NoteEntity.NoteEntity1, Note_Microservices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
